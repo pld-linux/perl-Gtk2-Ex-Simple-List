@@ -6,7 +6,7 @@
 %define		pdir	Gtk2
 %define		pnam	Ex-Simple-List
 Summary:	A simple interface to Gtk2's complex MVC list widget
-Summary(pl):	Prosty interfejs do z≥oøonego widgetu listy MVC w Gtk2
+Summary(pl.UTF-8):   Prosty interfejs do z≈Ço≈ºonego widgetu listy MVC w Gtk2
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.50
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A simple interface to Gtk2's complex MVC list widget.
 
-%description -l pl
-Prosty interfejs do z≥oøonego widgetu listy MVC w Gtk2.
+%description -l pl.UTF-8
+Prosty interfejs do z≈Ço≈ºonego widgetu listy MVC w Gtk2.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
