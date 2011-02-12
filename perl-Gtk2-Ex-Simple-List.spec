@@ -9,13 +9,14 @@ Summary:	A simple interface to Gtk2's complex MVC list widget
 Summary(pl.UTF-8):	Prosty interfejs do złożonego widgetu listy MVC w Gtk2
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.50
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f66c71bbb794b699f0c3e8ca7cebc35b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%{?with_tests:BuildRequires: perl-Gtk2 >= 1.101-2}
 Requires:	perl-Gtk2 >= 1.101-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
