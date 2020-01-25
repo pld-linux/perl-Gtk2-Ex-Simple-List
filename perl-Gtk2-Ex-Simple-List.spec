@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Gtk2
 %define		pnam	Ex-Simple-List
 Summary:	A simple interface to Gtk2's complex MVC list widget
